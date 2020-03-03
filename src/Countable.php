@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Halcyon\Collection;
+namespace Lobster\Countable;
 
 
 /**

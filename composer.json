@@ -1,12 +1,12 @@
 {
-    "name": "lobster-php/countable",
+    "name": "bermudaphp/countable",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Lobster\\Countable\\": "src/"
+            "Bermuda\\Countable\\": "src/"
         }
     },
     "require": {
-        "php": ">= 7.2.0"
+        "php": ">= 7.1"
     }
 }

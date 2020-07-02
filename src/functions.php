@@ -18,7 +18,7 @@ function count($var, bool $recursive = false): int
             return $var->count($recursive);
         }
         
-        return $recursive ? count($var, COUNT_RECURSIVE) : count($var);
+        return $recursive ? count($var, \COUNT_RECURSIVE) : count($var);
     }
     
     if(is_iterable($var))

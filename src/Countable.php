@@ -1,19 +1,18 @@
 <?php
 
 
-namespace Lobster\Countable;
+namespace Bermuda\Countable;
 
 
 /**
  * Interface Countable
- * @package Lobster\Countable
+ * @package Bermuda\Countable
  */
-interface Countable extends \Countable {
-
+interface Countable extends \Countable
+{
     /**
      * @param bool $recursive
      * @return int
      */
-    public function count(bool $recursive = false) : int ;
-
+    public function count(bool $recursive = false): int ;
 }
